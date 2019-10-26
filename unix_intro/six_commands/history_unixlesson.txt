@@ -1,0 +1,138 @@
+    1  git --version
+    2  git --version
+    3  nano --version
+    4  nano
+    5  ls
+    6  cd Desktop/workshop/unix_intro
+    7  head example.txt
+    8  head -n 5
+    9  ls
+   10  head /Users/matrix/Desktop/unix
+   11  head /Users/matrix/Desktop/unix_intro/example.txt
+   12  head example/txt
+   13  notes.txt
+   14  head example.txt
+   15  head experiment/notes.txt
+   16  head example.txt 
+   17  head example.txt 
+   18  head example.txt 
+   19  ls
+   20  cd experiment/
+   21  ls
+   22  pwd
+   23  ls
+   24  head notes.txt 
+   25  tail example.txt
+   26  less notes.txt 
+   27  wc example.txt
+   28  wc --help
+   29  wc -l notes.txt 
+   30  cp example.txt
+   31  cp example.txt example_copy.txt
+   32  ls
+   33  pwd
+   34  cd ..
+   35  pwd
+   36  ls
+   37  cp example.txt example_copy.txt
+   38  ls
+   39  mv example_copy.txt experiment/
+   40  ls
+   41  ls experiment/
+   42  rm example.txt 
+   43  rm experiment/example_copy.txt 
+   44  nano
+   45  nano samples_names.txt 
+   46  head samples_names.txt 
+   47  mkdir subset
+   48  ls
+   49  rmdir subset
+   50  rmdir experiment/
+   51  cp experiment/ experiment_copy
+   52  wc -l example.txt
+   53  ls | wc -l
+   54  ls data/
+   55  ls data/allsamples
+   56  ls
+   57  ls data/all_samples
+   58  ls data/all_samples/ | wc -1
+   59  ls
+   60  ls data/all_samples/ | wc -l
+   61  ls > directory_contents.txt
+   62  ls
+   63  head directory_contents.txt 
+   64  ls experiment/ > directory_contents.txt 
+   65  head directory_contents.txt 
+   66  ls >> directory_contents.txt 
+   67  head directory_contents.txt 
+   68  ls
+   69  cd data/all_samples/
+   70  cd data/all_samples
+   71  ls
+   72  ls *.tsv
+   73  ls *.fq
+   74  ls *.fq | wx -l
+   75  ls
+   76  ls *.fq -l
+   77  ls *.fq | wc -l
+   78  mkdir fastq_diles
+   79  ls fastq_diles/
+   80  ls *.fq
+   81  mv *.fq fastq_diles/
+   82  ls | wc -l
+   83  history
+   84  history | tail
+   85  history | head
+   86  ls
+   87  ls sample_1*.fq
+   88  ls sample_1?.fq
+   89  ls sample_1?.fq
+   90  cd..
+   91  cd ..
+   92  pwd
+   93  cd six_commands/
+   94  cd six_commands/
+   95  pwd
+   96  head gene
+   97  cd ..
+   98  pwd
+   99  ls
+  100  cd six_commands/
+  101  ls
+  102  head gene_annotations
+  103  head gene_annotations
+  104  head gene_annotations.tsv
+  105  history
+  106  cut -f 1 gene_annotations.tsv
+  107  cut -f 1 gene_annotations.tsv | head
+  108  cut -f 1,3 gene_annotations.tsv | head
+  109  cut -f 1-3 gene_annotations.tsv | head
+  110  head colors.txt
+  111  grep blue colors.txt
+  112  grep re colors.txt
+  113  grep K09765 gene_annotations.tsv 
+  114  grep K18979 gene_annotations.tsv 
+  115  grep -c K18979 gene_annotations.tsv 
+  116  head colores.txt
+  117  paste colors.txt colores.txt
+  118  my_var=TUCSON
+  119  echo this is lunch
+  120  echo my_var
+  121  echo $my_var
+  122  for item in earth mars venus; do echo $item; done
+  123  for item in earth mars venus; do echo $item; done
+  124  for item in earth mars venus; do echo $item; echo $irem > plamters.txt; done
+  125  head plants.txt
+  126  ls
+  127  head planets.txt
+  128  head plamters.txt 
+  129  cat planets.txt
+  130  ls
+  131  cat plamters.txt
+  132  for item in earth mars venus; do echo $item; echo $item > planters.txt; done
+  133  cat planters.txt
+  134  for item in earth mars venus; do echo $item; echo $item >> planters.txt; done
+  135  cat planets.txt
+  136  cat planters.txt 
+  137  history
+  138  history > history_unixlesson.txt
